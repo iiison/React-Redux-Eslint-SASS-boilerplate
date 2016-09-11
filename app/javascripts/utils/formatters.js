@@ -1,3 +1,4 @@
+/* eslint-disable */
 const dummy = {
 	invoices : [
 		{
@@ -121,6 +122,7 @@ const dummy = {
 		}
 	]
 }
+/* eslint-enable */
 
 export function formatPaymentDetails({ invoices }) {
 	if (invoices && invoices.length > 0) {
