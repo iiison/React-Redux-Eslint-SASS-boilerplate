@@ -1,0 +1,98 @@
+{
+	"tenant" : {
+		"My Payments" : {
+			"title" : "My Payments",
+			"link" : "/dashboard/payments"
+		},
+		"My Wishlists" : {
+			"title" : "My Wishlists",
+			"link" : "test"
+		},
+		"My Owner" : {
+			"title" : "My Owner",
+			"link" : "test"
+		},
+		"Agreement" : {
+			"title" : "Agreement",
+			"link" : "test"
+		},
+		"My Schedule Visits" : {
+			"title" : "My Schedule Visits",
+			"link" : "test"
+		},
+		"Key Terms" : {
+			"title" : "Key Terms",
+			"link" : "test"
+		},
+		"Utility Services" : {
+			"title" : "Utility Services",
+			"link" : "test"
+		},
+		"Offers for Nesties" : {
+			"title" : "Offers for Nesties",
+			"link" : "test"
+		},
+		"My Credits" : {
+			"title" : "My Credits",
+			"link" : "test"
+		},
+		"Tenant Details" : {
+			"title" : "Tenant Details",
+			"link" : "test"
+		}
+	},
+	"owner" : {
+		"View My Home" : {
+			"title" : "View My Home",
+			"link" : "test"
+		},
+		"Change Bed Rent" : {
+			"title" : "Change Bed Rent",
+			"link" : "test"
+		},
+		"My Payments" : {
+			"title" : "My Payments",
+			"link" : "test"
+		},
+		"Service Requests" : {
+			"title" : "Service Requests",
+			"link" : "test"
+		},
+		"Agreement" : {
+			"title" : "Agreement",
+			"link" : "test"
+		},
+		"My Wishlists" : {
+			"title" : "My Wishlists",
+			"link" : "test"
+		},
+		"My Tenant Leads" : {
+			"title" : "My Tenant Leads",
+			"link" : "test"
+		},
+		"Key Terms" : {
+			"title" : "Key Terms",
+			"link" : "test"
+		},
+		"Tenant Approval" : {
+			"title" : "Tenant Approval",
+			"link" : "test"
+		},
+		"Past Tenants" : {
+			"title" : "Past Tenants",
+			"link" : "test"
+		},
+		"House Insurance" : {
+			"title" : "House Insurance",
+			"link" : "test"
+		},
+		"Configure Offers" : {
+			"title" : "Configure Offers",
+			"link" : "test"
+		},
+		"Tenant Details" : {
+			"title" : "Tenant Details",
+			"link" : "test"
+		}
+	}
+}

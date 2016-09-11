@@ -1,0 +1,35 @@
+@import "../base/_variables";
+
+.button{
+	padding: 10px 30px;
+	border-radius: 2px;
+	font-size: 20px;
+	font-weight: $font-light;
+	transition: all 0.3s ease-in-out;
+	border: 1px solid $transparent;
+}
+
+.normal-button,
+.danger-button{
+	@extend .button;
+
+	color: $light;
+}
+
+.normal-button{
+	background-color: $theme-darker;
+
+	&:hover{
+		background-color: $theme;
+	}
+}
+
+.danger-button{
+	background-color: $wrong;
+
+	&:hover{
+		background-color: $light;
+		color: $wrong;
+		border-color: $wrong;
+	}
+}

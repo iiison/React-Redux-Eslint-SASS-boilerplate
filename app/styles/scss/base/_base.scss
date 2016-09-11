@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,500,400,300");
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: $font, "SansSerif", Helvetica;
+	font-weight: $font-normal;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba( 0, 0, 0, 0.004 );
+	outline: none;
+	text-decoration: none;
+}
+
+html,
+body{
+	width: 100%;
+	overflow: auto;
+}
+
+body {
+	background: $background;
+}
+
+b{
+	font-family: $font-bold;
+	font-weight: 400;
+}
+
+/* IE Fix for tap delay and webkit tap highlight fix */
+
+/* stylelint-disable  property-no-vendor-prefix, no-indistinguishable-colors */
+
+/* Browser Reset */
+
+a,
+label,
+input,
+button{
+	-ms-touch-action: manipulation;
+	-webkit-tap-highlight-color: rgba( 0, 0, 0, 0 );
+}
+
+a{
+	color: $theme-darker;
+}
+
+:global {
+
+	.rupee:before {
+		content: "\20B9";
+		display: inline-block;
+		vertical-align: baseline;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 1.5;
+		position: relative;
+		top: 1px;
+		right: 1px;
+		font-family: $font-light;
+	}
+}
+
+/* stylelint-enable  */

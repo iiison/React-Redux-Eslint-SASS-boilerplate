@@ -1,0 +1,12 @@
+@import "../../../styles/scss/base/_variables";
+@import "../../../styles/scss/modules/_buttons";
+@import "../../../styles/scss/base/_generic.scss";
+
+.mainButton{
+	@extend .normal-button;
+	@extend .center-block;
+
+	display: table;
+	margin: 0 auto;
+	margin-top: 50px;
+}

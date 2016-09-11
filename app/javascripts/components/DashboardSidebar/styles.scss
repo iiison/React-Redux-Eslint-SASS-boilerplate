@@ -1,0 +1,20 @@
+@import "../../../styles/scss/base/_variables";
+
+.sidebarlinks{
+	font-size: 15px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 10px;
+
+	&:hover{
+		color: $light;
+		background-color: $theme;
+	}
+}
+
+.sidebar{
+	float: left;
+	width: 30%;
+	margin-right: 40px;
+}

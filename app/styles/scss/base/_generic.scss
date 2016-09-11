@@ -1,0 +1,48 @@
+@import "./_variables";
+
+:global{
+
+	.left{
+		float: left;
+	}
+
+	.right{
+		float: right;
+	}
+
+	.t-center{
+		text-align: center;
+	}
+
+	.capitals{
+		text-transform: uppercase;
+	}
+
+	.camels{
+		text-transform: capitalize;
+	}
+
+	.center-block{
+		margin: 0 auto;
+		display: table;
+	}
+
+	.header{
+		@extend .t-center;
+		@extend .camels;
+
+		margin-top: 20px;
+		font-size: 40px;
+		color: $theme;
+		font-weight: 500;
+	}
+
+	.content{
+		font-size: 20px;
+		color: $disabled;
+		text-align: center;
+		margin-top: 10px;
+		width: 70%;
+		@extend .center-block;
+	}
+}

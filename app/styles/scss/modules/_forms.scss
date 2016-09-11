@@ -1,0 +1,40 @@
+@import "../base/_variables";
+
+form {
+	width: 100%;
+}
+
+fieldset{
+	margin-top: 20px;
+	border: 1px solid transparent;
+
+	p {
+		margin-bottom: 30px;
+	}
+}
+
+input{
+	box-shadow: none;
+	outline: none;
+	background-color: transparent;
+	padding: 5px 10px;
+	border: 1px solid $faded;
+	font-size: 20px;
+	color: $mix;
+}
+
+:global{
+
+	input.wrong{
+		border-color: $error;
+		background: $error-back;
+	}
+}
+
+label{
+	color: $theme;
+	font-size: 20px;
+	margin-right: 20px;
+	width: 30%;
+	display: inline-block;
+}

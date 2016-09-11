@@ -1,0 +1,9 @@
+@import "../../../styles/scss/base/_generic";
+
+:global{
+
+	.login-form{
+		width: 50%;
+		@extend .center-block;
+	}
+}

@@ -1,0 +1,44 @@
+/* Dummy Styles */
+@import "../../../styles/scss/base/_variables";
+
+:global{
+
+	.main-links,
+	.controls{
+		font-size: 16px;
+	}
+
+	.controls{
+		padding: 10px 20px;
+		cursor: pointer;
+		transition: all 0.2s ease-in;
+
+		&:hover{
+			background-color: $theme;
+			color: $light;
+		}
+	}
+
+	.main-links{
+		color: $theme;
+
+		a{
+			font-size: inherit;
+			color: inherit;
+			display: inherit;
+			padding: 10px 20px;
+
+			&:hover{
+				background-color: $theme;
+				color: $banner;
+			}
+		}
+	}
+}
+
+nav{
+	width: 100%;
+	padding: 0 30px;
+	display: inline-block;
+	border-bottom: 1px solid $faded;
+}

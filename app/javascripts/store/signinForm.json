@@ -1,0 +1,24 @@
+{
+	"isTested" : false,
+	"fields"   : {
+		"email"    : {
+			"className"   : "input",
+			"type"        : "text",
+			"placeholder" : "email",
+			"idName"      : "email",
+			"label"       : "Email",
+			"validate"    : "required|email",
+			"display"     : "Email"
+		},
+		"password" : {
+			"class"       : "input",
+			"type"        : "password",
+			"placeholder" : "password",
+			"idName"      : "password",
+			"test"        : [1,2,3],
+			"label"       : "Password",
+			"display"     : "Password",
+			"validate"    : "required"
+		}
+	}
+}
