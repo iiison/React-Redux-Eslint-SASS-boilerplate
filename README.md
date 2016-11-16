@@ -24,8 +24,8 @@
 - #### Clone Repo
     ```sh
     cd ~/Documents
-    git clone https://github.com/NestAway/nestaway-frontend.git
-    cd nestaway-frontend
+    git clone https://github.com/iiison/React-Redux-Eslint-SASS-boilerplate.git
+    cd React-Redux-Eslint-SASS-boilerplate
     ```
 
 - #### Install Dependencies
