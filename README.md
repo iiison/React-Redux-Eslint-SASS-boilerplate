@@ -1,6 +1,5 @@
-# Project: NestAway-FrontEnd
+# Project: React-Redux-Eslint-SASS-boilerplate
 
-*NestAway-FrontEnd* is Front-End repo for NestAway.
 
 ## First Time Setup
 
